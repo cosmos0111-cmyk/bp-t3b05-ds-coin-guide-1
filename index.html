@@ -1,365 +1,363 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
-  <meta name="bpaas-design-system" content="brutalist-avantgarde">
-  <meta name="bpaas-design-theme" content="kr-raw-concrete">
-  <title>당산 코인노래방 가이드 — 처음 방문자를 위한 비용 구조 분해와 조건별 선택 안내</title>
-  <meta name="description" content="당산 코인노래방을 처음 방문하는 사람을 위한 비용 구조 해설. 방값을 구성하는 항목, 포함과 별도의 경계, 조건이 바뀔 때 변동되는 요소를 분석한다. 실제 가격 대신 구조를 이해하는 데 초점을 맞춘 가이드.">
-  <meta name="keywords" content="당산 코인노래방, 코인노래방 가이드, 당산 노래방, 코인노래방 비용, 당산 코인노래방 구조">
-  <link rel="canonical" href="https://dangsan-song-choice.mapo-room-guide.xyz/">
-  <meta property="og:title" content="당산 코인노래방 가이드 — 처음 방문자를 위한 비용 구조 분해와 조건별 선택 안내">
-  <meta property="og:description" content="당산 코인노래방을 처음 방문하는 사람을 위한 비용 구조 해설. 방값을 구성하는 항목, 포함과 별도의 경계, 조건이 바뀔 때 변동되는 요소를 분석한다. 실제 가격 대신 구조를 이해하는 데 초점을 맞춘 가이드.">
-  <meta property="og:type" content="website">
-  <meta property="og:url" content="https://dangsan-song-choice.mapo-room-guide.xyz/">
-  <meta name="twitter:card" content="summary">
-  <meta name="twitter:title" content="당산 코인노래방 가이드 — 처음 방문자를 위한 조건별 선택 안내">
-  <meta name="twitter:description" content="비용은 문의해야 알 수 있지만, 비용을 구성하는 항목은 미리 알 수 있습니다. 당산 코인노래방의 구조를 읽는 법을 알려드립니다.">
-  <style>
-    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
-    html { scroll-behavior: smooth; }
-    body {
-      font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
-      background-color: #f9f8f6; 
-      color: #1a1a1a;
-      line-height: 1.7;
-      font-weight: 380;
-      letter-spacing: 0.01em;
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      min-height: 100vh;
-      background-image: radial-gradient(circle at 15% 10%, #f0ece4 1px, transparent 1px);
-      background-size: 32px 32px;
-    }
+ <meta charset="UTF-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+ <title>당산 코인노래방 가이드 — 처음 방문자를 위한 비용 구조 분해와 조건별 선택 안내</title>
+ <meta name="description" content="당산 코인노래방을 처음 방문하는 사람을 위한 비용 구조 해설. 방값을 구성하는 항목, 포함과 별도의 경계, 조건이 바뀔 때 변동되는 요소를 분석한다. 실제 가격 대신 구조를 이해하는 데 초점을 맞춘 가이드.">
+ <meta name="keywords" content="당산 코인노래방, 코인노래방 가이드, 당산 노래방, 코인노래방 비용, 당산 코인노래방 구조">
+ <link rel="canonical" href="https://dangsan-song-choice.mapo-room-guide.xyz/">
+ <meta property="og:title" content="당산 코인노래방 가이드 — 처음 방문자를 위한 비용 구조 분해와 조건별 선택 안내">
+ <meta property="og:description" content="당산 코인노래방을 처음 방문하는 사람을 위한 비용 구조 해설. 방값을 구성하는 항목, 포함과 별도의 경계, 조건이 바뀔 때 변동되는 요소를 분석한다. 실제 가격 대신 구조를 이해하는 데 초점을 맞춘 가이드.">
+ <meta property="og:type" content="website">
+ <meta property="og:url" content="https://dangsan-song-choice.mapo-room-guide.xyz/">
+ <meta name="twitter:card" content="summary">
+ <meta name="twitter:title" content="당산 코인노래방 가이드 — 처음 방문자를 위한 조건별 선택 안내">
+ <meta name="twitter:description" content="비용은 문의해야 알 수 있지만, 비용을 구성하는 항목은 미리 알 수 있습니다. 당산 코인노래방의 구조를 읽는 법을 알려드립니다.">
+ <style>
+ *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+ html { scroll-behavior: smooth; }
+ body {
+ font-family: system-ui, -apple-system, 'Segoe UI', Roboto, 'Helvetica Neue', sans-serif;
+ background-color: #f9f8f6; 
+ color: #1a1a1a;
+ line-height: 1.7;
+ font-weight: 380;
+ letter-spacing: 0.01em;
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ min-height: 100vh;
+ background-image: radial-gradient(circle at 15% 10%, #f0ece4 1px, transparent 1px);
+ background-size: 32px 32px;
+ }
 
-    /* raw concrete + brutalist accents mixed with Scandinavian bright functionalism */
-    .n-card-juvg {
-      max-width: 760px;
-      width: 100%;
-      margin: 0 auto;
-      padding: 0 28px;
-      display: flex;
-      flex-direction: column;
-      flex: 1;
-    }
+ /* raw concrete + brutalist accents mixed with Scandinavian bright functionalism */
+ .n-card-juvg {
+ max-width: 760px;
+ width: 100%;
+ margin: 0 auto;
+ padding: 0 28px;
+ display: flex;
+ flex-direction: column;
+ flex: 1;
+ }
 
-    /* 네비게이션 */
-    .r-txt-lcdp {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      padding: 28px 0 20px;
-      border-bottom: 4px solid #1a1a1a;
-      margin-bottom: 0;
-      flex-wrap: wrap;
-    }
-    .q-ico-qxw0 {
-      font-size: 1.7rem;
-      font-weight: 750;
-      letter-spacing: -0.5px;
-      background: #ff6b35;
-      color: #fff;
-      padding: 6px 14px;
-      display: inline-block;
-      border: 3px solid #1a1a1a;
-      box-shadow: 4px 4px 0 #1a1a1a;
-      text-transform: uppercase;
-      line-height: 1.2;
-    }
-    .r-txt-lcdp-links {
-      list-style: none;
-      display: flex;
-      gap: 32px;
-      flex-wrap: wrap;
-      font-weight: 500;
-      background: #fff;
-      padding: 8px 18px;
-      border: 3px solid #1a1a1a;
-    }
-    .r-txt-lcdp-links li a {
-      text-decoration: none;
-      color: #1a1a1a;
-      font-size: 1rem;
-      text-transform: lowercase;
-      letter-spacing: 0.5px;
-      border-bottom: 2px solid transparent;
-      transition: border-color 0.15s;
-    }
-    .r-txt-lcdp-links li a:hover {
-      border-bottom: 2px solid #ff6b35;
-    }
-    .hamburger {
-      display: none;
-      background: none;
-      border: 3px solid #1a1a1a;
-      font-size: 2rem;
-      background: #fff;
-      padding: 0 12px;
-      cursor: pointer;
-    }
+ /* 네비게이션 */
+ .r-txt-lcdp {
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 28px 0 20px;
+ border-bottom: 4px solid #1a1a1a;
+ margin-bottom: 0;
+ flex-wrap: wrap;
+ }
+ .q-ico-qxw0 {
+ font-size: 1.7rem;
+ font-weight: 750;
+ letter-spacing: -0.5px;
+ background: #ff6b35;
+ color: #fff;
+ padding: 6px 14px;
+ display: inline-block;
+ border: 3px solid #1a1a1a;
+ box-shadow: 4px 4px 0 #1a1a1a;
+ text-transform: uppercase;
+ line-height: 1.2;
+ }
+ .r-txt-lcdp-links {
+ list-style: none;
+ display: flex;
+ gap: 32px;
+ flex-wrap: wrap;
+ font-weight: 500;
+ background: #fff;
+ padding: 8px 18px;
+ border: 3px solid #1a1a1a;
+ }
+ .r-txt-lcdp-links li a {
+ text-decoration: none;
+ color: #1a1a1a;
+ font-size: 1rem;
+ text-transform: lowercase;
+ letter-spacing: 0.5px;
+ border-bottom: 2px solid transparent;
+ transition: border-color 0.15s;
+ }
+ .r-txt-lcdp-links li a:hover {
+ border-bottom: 2px solid #ff6b35;
+ }
+ .hamburger {
+ display: none;
+ background: none;
+ border: 3px solid #1a1a1a;
+ font-size: 2rem;
+ background: #fff;
+ padding: 0 12px;
+ cursor: pointer;
+ }
 
-    /* hero - classic editorial with drop cap & raw feel */
-    .x-foot-a7bg {
-      padding: 48px 0 28px;
-      border-bottom: 4px dashed #1a1a1a;
-      margin-bottom: 48px;
-      position: relative;
-    }
-    h1 {
-      font-size: 3.6rem;
-      font-weight: 800;
-      line-height: 1.1;
-      letter-spacing: -0.02em;
-      font-family: 'Times New Roman', 'Georgia', 'Apple SD Gothic Neo', serif;
-      color: #1a1a1a;
-      margin-bottom: 28px;
-      text-transform: uppercase;
-      word-break: keep-all;
-    }
-    .t-ico-fm8s::first-letter {
-      font-size: 5.8rem;
-      float: left;
-      font-weight: 900;
-      line-height: 0.8;
-      margin-right: 14px;
-      color: #ff6b35;
-      text-shadow: 2px 2px 0 #1a1a1a;
-    }
-    .hero-sub {
-      font-size: 1.4rem;
-      font-weight: 400;
-      border-left: 8px solid #ff6b35;
-      padding-left: 24px;
-      margin-top: 20px;
-      font-style: italic;
-      background: #fff;
-      padding: 16px 24px;
-      border: 3px solid #1a1a1a;
-      box-shadow: 6px 6px 0 rgba(0,0,0,0.05);
-    }
+ /* hero - classic editorial with drop cap & raw feel */
+ .x-foot-a7bg {
+ padding: 48px 0 28px;
+ border-bottom: 4px dashed #1a1a1a;
+ margin-bottom: 48px;
+ position: relative;
+ }
+ h1 {
+ font-size: 3.6rem;
+ font-weight: 800;
+ line-height: 1.1;
+ letter-spacing: -0.02em;
+ font-family: 'Times New Roman', 'Georgia', 'Apple SD Gothic Neo', serif;
+ color: #1a1a1a;
+ margin-bottom: 28px;
+ text-transform: uppercase;
+ word-break: keep-all;
+ }
+ .t-ico-fm8s::first-letter {
+ font-size: 5.8rem;
+ float: left;
+ font-weight: 900;
+ line-height: 0.8;
+ margin-right: 14px;
+ color: #ff6b35;
+ text-shadow: 2px 2px 0 #1a1a1a;
+ }
+ .hero-sub {
+ font-size: 1.4rem;
+ font-weight: 400;
+ border-left: 8px solid #ff6b35;
+ padding-left: 24px;
+ margin-top: 20px;
+ font-style: italic;
+ background: #fff;
+ padding: 16px 24px;
+ border: 3px solid #1a1a1a;
+ box-shadow: 6px 6px 0 rgba(0,0,0,0.05);
+ }
 
-    section {
-      padding: 48px 0;
-      border-bottom: 2px dotted #b0b0b0;
-    }
-    h2 {
-      font-size: 2.4rem;
-      font-weight: 700;
-      font-family: 'Georgia', serif;
-      margin-bottom: 28px;
-      display: flex;
-      align-items: center;
-      gap: 12px;
-      letter-spacing: -0.01em;
-    }
-    h2::before {
-      content: "";
-      display: inline-block;
-      width: 10px;
-      height: 45px;
-      background: #ff6b35;
-      border: 2px solid #1a1a1a;
-      transform: rotate(-1.5deg);
-      margin-right: 8px;
-    }
-    p {
-      margin-bottom: 24px;
-      font-size: 1.1rem;
-    }
-    .n-foot-qmgk {
-      list-style: none;
-      margin: 24px 0;
-      display: flex;
-      flex-direction: column;
-      gap: 20px;
-    }
-    .n-foot-qmgk li {
-      background: #ffffff;
-      padding: 18px 24px;
-      border: 3px solid #1a1a1a;
-      box-shadow: 5px 5px 0 #e5e5e5;
-      font-weight: 500;
-      display: flex;
-      align-items: baseline;
-      gap: 12px;
-    }
-    .n-foot-qmgk li::before {
-      content: "▣";
-      color: #ff6b35;
-      font-size: 1.3rem;
-      font-weight: bold;
-    }
-    .q-txt-ln45-comparison {
-      display: grid;
-      grid-template-columns: 1fr 1fr;
-      gap: 32px;
-      margin: 36px 0;
-    }
-    .n-list-t2ew {
-      background: #f9f7f2;
-      border: 3px solid #1a1a1a;
-      padding: 28px 22px;
-      box-shadow: 8px 8px 0 #e5e5e5;
-    }
-    .n-list-t2ew h3 {
-      font-size: 1.6rem;
-      font-weight: 700;
-      border-bottom: 3px solid #ff6b35;
-      display: inline-block;
-      margin-bottom: 18px;
-    }
-    .m-side-3gsy {
-      margin: 56px 0 28px;
-      padding: 28px;
-      background: #fff;
-      border: 4px solid #1a1a1a;
-      box-shadow: 10px 10px 0 #e5e5e5;
-      font-style: normal;
-    }
-    .m-side-3gsy-name {
-      font-weight: 800;
-      font-size: 1.3rem;
-      text-transform: uppercase;
-    }
+ section {
+ padding: 48px 0;
+ border-bottom: 2px dotted #b0b0b0;
+ }
+ h2 {
+ font-size: 2.4rem;
+ font-weight: 700;
+ font-family: 'Georgia', serif;
+ margin-bottom: 28px;
+ display: flex;
+ align-items: center;
+ gap: 12px;
+ letter-spacing: -0.01em;
+ }
+ h2::before {
+ content: "";
+ display: inline-block;
+ width: 10px;
+ height: 45px;
+ background: #ff6b35;
+ border: 2px solid #1a1a1a;
+ transform: rotate(-1.5deg);
+ margin-right: 8px;
+ }
+ p {
+ margin-bottom: 24px;
+ font-size: 1.1rem;
+ }
+ .n-foot-qmgk {
+ list-style: none;
+ margin: 24px 0;
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+ }
+ .n-foot-qmgk li {
+ background: #ffffff;
+ padding: 18px 24px;
+ border: 3px solid #1a1a1a;
+ box-shadow: 5px 5px 0 #e5e5e5;
+ font-weight: 500;
+ display: flex;
+ align-items: baseline;
+ gap: 12px;
+ }
+ .n-foot-qmgk li::before {
+ content: "▣";
+ color: #ff6b35;
+ font-size: 1.3rem;
+ font-weight: bold;
+ }
+ .q-txt-ln45-comparison {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 32px;
+ margin: 36px 0;
+ }
+ .n-list-t2ew {
+ background: #f9f7f2;
+ border: 3px solid #1a1a1a;
+ padding: 28px 22px;
+ box-shadow: 8px 8px 0 #e5e5e5;
+ }
+ .n-list-t2ew h3 {
+ font-size: 1.6rem;
+ font-weight: 700;
+ border-bottom: 3px solid #ff6b35;
+ display: inline-block;
+ margin-bottom: 18px;
+ }
+ .m-side-3gsy {
+ margin: 56px 0 28px;
+ padding: 28px;
+ background: #fff;
+ border: 4px solid #1a1a1a;
+ box-shadow: 10px 10px 0 #e5e5e5;
+ font-style: normal;
+ }
+ .m-side-3gsy-name {
+ font-weight: 800;
+ font-size: 1.3rem;
+ text-transform: uppercase;
+ }
 
-    /* FAQ */
-    .faq-item {
-      margin-bottom: 28px;
-      background: #fff;
-      border: 3px solid #1a1a1a;
-      padding: 20px 24px;
-    }
-    .faq-question {
-      font-weight: 700;
-      font-size: 1.2rem;
-      margin-bottom: 12px;
-      color: #1a1a1a;
-    }
+ /* FAQ */
+ .faq-item {
+ margin-bottom: 28px;
+ background: #fff;
+ border: 3px solid #1a1a1a;
+ padding: 20px 24px;
+ }
+ .faq-question {
+ font-weight: 700;
+ font-size: 1.2rem;
+ margin-bottom: 12px;
+ color: #1a1a1a;
+ }
 
-    footer {
-      padding: 32px 0 48px;
-      border-top: 4px solid #1a1a1a;
-      margin-top: 32px;
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      flex-wrap: wrap;
-      font-size: 0.9rem;
-    }
+ footer {
+ padding: 32px 0 48px;
+ border-top: 4px solid #1a1a1a;
+ margin-top: 32px;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ flex-wrap: wrap;
+ font-size: 0.9rem;
+ }
 
-    @media (max-width: 768px) {
-      .n-card-juvg { padding: 0 18px; }
-      h1 { font-size: 2.6rem; }
-      .r-txt-lcdp { flex-direction: column; align-items: flex-start; gap: 18px; }
-      .r-txt-lcdp-links { display: none; flex-direction: column; width: 100%; }
-      .r-txt-lcdp-links.active { display: flex; }
-      .hamburger { display: block; align-self: flex-end; margin-top: -40px; }
-      .q-txt-ln45-comparison { grid-template-columns: 1fr; }
-      section { padding: 24px 0; }
-    }
-  </style>
+ @media (max-width: 768px) {
+ .n-card-juvg { padding: 0 18px; }
+ h1 { font-size: 2.6rem; }
+ .r-txt-lcdp { flex-direction: column; align-items: flex-start; gap: 18px; }
+ .r-txt-lcdp-links { display: none; flex-direction: column; width: 100%; }
+ .r-txt-lcdp-links.active { display: flex; }
+ .hamburger { display: block; align-self: flex-end; margin-top: -40px; }
+ .q-txt-ln45-comparison { grid-template-columns: 1fr; }
+ section { padding: 24px 0; }
+ }
+ </style>
 </head>
 <body>
 <div class="n-card-juvg">
 
 <header>
-  <nav class="r-txt-lcdp">
-    <span class="q-ico-qxw0">당산 코인가이드</span>
-    <button class="hamburger" id="hamburger-btn" aria-label="메뉴">☰</button>
-    <ul class="r-txt-lcdp-links" id="nav-menu">
-      <li style="order:2"><a href="#structure">구조</a></li>
-      <li style="order:1"><a href="#boundary">경계</a></li>
-      <li style="order:3"><a href="#scenarios">조건변동</a></li>
-      <li style="order:0"><a href="#faq">FAQ</a></li>
-    </ul>
-  </nav>
+ <nav class="r-txt-lcdp">
+ <span class="q-ico-qxw0">당산 코인가이드</span>
+ <button class="hamburger" id="hamburger-btn" aria-label="메뉴">☰</button>
+ <ul class="r-txt-lcdp-links" id="nav-menu">
+ <li style="order:2"><a href="#structure">구조</a></li>
+ <li style="order:1"><a href="#boundary">경계</a></li>
+ <li style="order:3"><a href="#scenarios">조건변동</a></li>
+ <li style="order:0"><a href="#faq">FAQ</a></li>
+ </ul>
+ </nav>
 </header>
 
-  <main>
-    <!-- Hero -->
-    <section id="home" class="x-foot-a7bg">
-      <h1 class="v-box-5b7y-cap">당산 코인노래방<br>가이드</h1>
-      <div class="hero-sub">
-        금액을 외우는 대신, 비용을 만드는 항목을 분해합니다.<br>처음이라면 용어부터 — 물어봐도 괜찮습니다.
-      </div>
-      <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='12'%3E%3Crect width='50' height='12' fill='%23ff6b35'/%3E%3C/svg%3E" alt="graphic_element_8a3f" style="margin-top:18px;">
-    </section>
+ <main>
+ <!-- Hero -->
+ <section id="home" class="x-foot-a7bg">
+ <h1 class="v-box-5b7y-cap">당산 코인노래방<br>가이드</h1>
+ <div class="hero-sub">
+ 금액을 외우는 대신, 비용을 만드는 항목을 분해합니다.<br>처음이라면 용어부터 — 물어봐도 괜찮습니다.
+ </div>
+ <img src="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='50' height='12'%3E%3Crect width='50' height='12' fill='%23ff6b35'/%3E%3C/svg%3E" alt="graphic_element_8a3f" style="margin-top:18px;">
+ </section>
 
-    <!-- 비용을 가르는 항목의 구분 -->
-    <section id="boundary">
-      <h2>비용을 가르는 항목의 구분</h2>
-      <p class="v-box-5b7y-cap">당산 코인노래방 이용료는 하나의 숫자가 아닙니다. 방값이라는 표현조차 여러 층위의 항목을 뭉뚱그린 말일 때가 많죠. 기본적으로 <strong>코인 충전 단위</strong>, <strong>인원별 추가 요금</strong>, <strong>시간대 구분</strong>이라는 세 축이 비용 구조를 결정합니다.</p>
-      <p>여기서 가장 중요한 건 ‘포함’과 ‘별도’의 경계입니다. 특정 시간대에 방 입장 시 음료나 스낵이 포함되는지, 아니면 전부 별도 결제인지를 확인하지 않으면 예상치 못한 비용이 발생할 수 있어요. 당산 지역 매장들은 이 포함 범위가 상이하기 때문에 물어보는 것을 부끄러워할 필요 없습니다.</p>
-      <ul class="n-foot-qmgk">
-        <li><strong>코인 단가와 최소 충전</strong> — 코인 한 곡당 가격이 아니라, 최초 충전 단위가 어떻게 설정되어 있는지 확인하세요.</li>
-        <li><strong>인원수 배율</strong> — 방 크기와 인원 수에 따라 시간당 차감 코인이 달라지는 구조인지 여부.</li>
-        <li><strong>프라임 시간</strong> — 평일 저녁/주말에 적용되는 별도 계수가 존재하는 매장이 대부분입니다.</li>
-      </ul>
-    </section>
+ <!-- 비용을 가르는 항목의 구분 -->
+ <section id="boundary">
+ <h2>비용을 가르는 항목의 구분</h2>
+ <p class="v-box-5b7y-cap">당산 코인노래방 이용료는 하나의 숫자가 아닙니다. 방값이라는 표현조차 여러 층위의 항목을 뭉뚱그린 말일 때가 많죠. 기본적으로 <strong>코인 충전 단위</strong>, <strong>인원별 추가 요금</strong>, <strong>시간대 구분</strong>이라는 세 축이 비용 구조를 결정합니다.</p>
+ <p>여기서 가장 중요한 건 ‘포함’과 ‘별도’의 경계입니다. 특정 시간대에 방 입장 시 음료나 스낵이 포함되는지, 아니면 전부 별도 결제인지를 확인하지 않으면 예상치 못한 비용이 발생할 수 있어요. 당산 지역 매장들은 이 포함 범위가 상이하기 때문에 물어보는 것을 부끄러워할 필요 없습니다.</p>
+ <ul class="n-foot-qmgk">
+ <li><strong>코인 단가와 최소 충전</strong> — 코인 한 곡당 가격이 아니라, 최초 충전 단위가 어떻게 설정되어 있는지 확인하세요.</li>
+ <li><strong>인원수 배율</strong> — 방 크기와 인원 수에 따라 시간당 차감 코인이 달라지는 구조인지 여부.</li>
+ <li><strong>프라임 시간</strong> — 평일 저녁/주말에 적용되는 별도 계수가 존재하는 매장이 대부분입니다.</li>
+ </ul>
+ </section>
 
-    <!-- 포함과 별도의 경계 -->
-    <section>
-      <h2>포함과 별도의 경계</h2>
-      <div class="q-txt-ln45-comparison">
-        <div class="n-list-t2ew">
-          <h3>보통 포함된다고 오해하는 것</h3>
-          <p>무료 음료, 기본 안주, 마이크 커버 교체, 리모컨 사용료. 일부 매장에서는 이 모든 것이 별도 비용입니다. 특히 당산의 소형 코인노래방에서는 음료 자판기 수익이 중요하기 때문에 룸 비용에 포함되지 않는 경우가 많습니다.</p>
-        </div>
-        <div class="n-list-t2ew">
-          <h3>항상 별도라고 단정할 수 없는 것</h3>
-          <p>대관 예약비, 특정 시간대 연장 할인, 신규 가입 혜택 등은 매장 정책에 따라 크게 엇갈립니다. 포스터나 공지에 적힌 문구를 사진 찍어두면 나중에 도움이 됩니다.</p>
-        </div>
-      </div>
-      <p style="font-weight:600; background:#ff6b35; color:#fff; padding:8px 18px; display:inline-block; border:2px solid #1a1a1a;">결론: 포함 항목 리스트를 직원에게 물어보는 건 당당한 권리입니다.</p>
-      <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="graphic_element_12b9" style="display:block; height:12px; width:60px; margin:12px 0;">
-    </section>
+ <!-- 포함과 별도의 경계 -->
+ <section>
+ <h2>포함과 별도의 경계</h2>
+ <div class="q-txt-ln45-comparison">
+ <div class="n-list-t2ew">
+ <h3>보통 포함된다고 오해하는 것</h3>
+ <p>무료 음료, 기본 안주, 마이크 커버 교체, 리모컨 사용료. 일부 매장에서는 이 모든 것이 별도 비용입니다. 특히 당산의 소형 코인노래방에서는 음료 자판기 수익이 중요하기 때문에 룸 비용에 포함되지 않는 경우가 많습니다.</p>
+ </div>
+ <div class="n-list-t2ew">
+ <h3>항상 별도라고 단정할 수 없는 것</h3>
+ <p>대관 예약비, 특정 시간대 연장 할인, 신규 가입 혜택 등은 매장 정책에 따라 크게 엇갈립니다. 포스터나 공지에 적힌 문구를 사진 찍어두면 나중에 도움이 됩니다.</p>
+ </div>
+ </div>
+ <p style="font-weight:600; background:#ff6b35; color:#fff; padding:8px 18px; display:inline-block; border:2px solid #1a1a1a;">결론: 포함 항목 리스트를 직원에게 물어보는 건 당당한 권리입니다.</p>
+ <img src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///yH5BAEAAAAALAAAAAABAAEAAAIBRAA7" alt="graphic_element_12b9" style="display:block; height:12px; width:60px; margin:12px 0;">
+ </section>
 
-    <!-- 조건이 바뀔 때 변동 -->
-    <section id="scenarios">
-      <h2>조건이 바뀌면 금액이 뒤집힙니다</h2>
-      <p>혼자 오후 2시에 들어갔을 때와, 셋이서 금요일 밤 8시에 들어갔을 때의 코인 소모 속도는 완전히 다릅니다. 당산 코인노래방 가이드로서 강조하고 싶은 건 <strong>시간대 × 요일 × 인수</strong>의 조합이 비용 변동폭을 만든다는 겁니다.</p>
-      <p>일부 매장은 평일 낮에 한해 '무제한 블록'을 코인으로 구매할 수 있도록 해두고, 주말에는 곡 단위만 허용합니다. 이런 조건은 현장의 작은 안내판에만 적혀 있으므로 입장 전에 계산대 옆 공지를 읽는 습관을 들이시기를 권장합니다.</p>
-      <p>또 다른 변수는 방의 타입입니다. 소형 룸은 기본 코인 소모가 적지만, 대형 룸은 인원수와 관계없이 더 많은 코딩을 요구하는 정책을 가진 곳이 존재합니다. 이것 역시 사전에 질문하지 않으면 알 수 없는 구조입니다.</p>
-    </section>
+ <!-- 조건이 바뀔 때 변동 -->
+ <section id="scenarios">
+ <h2>조건이 바뀌면 금액이 뒤집힙니다</h2>
+ <p>혼자 오후 2시에 들어갔을 때와, 셋이서 금요일 밤 8시에 들어갔을 때의 코인 소모 속도는 완전히 다릅니다. 당산 코인노래방 가이드로서 강조하고 싶은 건 <strong>시간대 × 요일 × 인수</strong>의 조합이 비용 변동폭을 만든다는 겁니다.</p>
+ <p>일부 매장은 평일 낮에 한해 '무제한 블록'을 코인으로 구매할 수 있도록 해두고, 주말에는 곡 단위만 허용합니다. 이런 조건은 현장의 작은 안내판에만 적혀 있으므로 입장 전에 계산대 옆 공지를 읽는 습관을 들이시기를 권장합니다.</p>
+ <p>또 다른 변수는 방의 타입입니다. 소형 룸은 기본 코인 소모가 적지만, 대형 룸은 인원수와 관계없이 더 많은 코딩을 요구하는 정책을 가진 곳이 존재합니다. 이것 역시 사전에 질문하지 않으면 알 수 없는 구조입니다.</p>
+ </section>
 
-    <!-- 작성자 바이오 E-A-T -->
-    <div class="m-side-3gsy">
-      <span class="m-side-3gsy-name">박지후 · 당산 로컬 가이드</span>
-      <p style="margin-top:10px;">당산·합정·문래 지역의 생활 밀착 정보를 5년간 수집·정리해온 프리랜스 기록자입니다. 코인노래방뿐 아니라 지역의 독립 서점, 공간 대여, 소모임 문화까지 폭넓게 관찰하며 구조를 설명하는 일을 하고 있습니다.</p>
-    </div>
+ <!-- 작성자 바이오 E-A-T -->
+ <div class="m-side-3gsy">
+ <span class="m-side-3gsy-name">박지후 · 당산 로컬 가이드</span>
+ <p style="margin-top:10px;">당산·합정·문래 지역의 생활 밀착 정보를 5년간 수집·정리해온 프리랜스 기록자입니다. 코인노래방뿐 아니라 지역의 독립 서점, 공간 대여, 소모임 문화까지 폭넓게 관찰하며 구조를 설명하는 일을 하고 있습니다.</p>
+ </div>
 
-    <!-- FAQ 섹션 -->
-    <section id="faq">
-      <h2>자주 묻는 질문</h2>
-      <div class="faq-item">
-        <div class="faq-question">코인노래방 처음인데, 얼마를 충전해야 하나요?</div>
-        <p>최소 충전 단위가 매장마다 다르므로, 입장 시 직원에게 "몇 곡부터 시작하나요?"라고 물어보면 됩니다. 보통 4~6곡 분량으로 설정되어 있으며, 추가 충전은 노래 중간에도 가능합니다. 당황하지 마세요.</p>
-      </div>
-      <div class="faq-item">
-        <div class="faq-question">당산에서 1인 코인노래방 가능한 곳이 있나요?</div>
-        <p>당당 지역에도 1인 코인노래방이 점차 생기고 있습니다. 인원수 요금 배율이 없는지 확인하고, 소형 부스 형태의 룸을 운영하는 곳을 찾으면 됩니다. 미리 전화 없이 방문해도 대부분 안내받을 수 있습니다.</p>
-      </div>
-      <div class="faq-item">
-        <div class="faq-question">친구들과 갈 때, 총비용은 어떻게 나누나요?</div>
-        <p>코인 충전은 한 기기로 통합 결제되는 경우가 많습니다. 따라서 인원 수대로 나눌 순 있지만, 방 사용 계수에 따라 인당 부담이 달라지므로 결제 전에 총예상 곡수를 확인하는 습관을 들이세요.</p>
-      </div>
-    </section>
-  </main>
+ <!-- FAQ 섹션 -->
+ <section id="faq">
+ <h2>자주 묻는 질문</h2>
+ <div class="faq-item">
+ <div class="faq-question">코인노래방 처음인데, 얼마를 충전해야 하나요?</div>
+ <p>최소 충전 단위가 매장마다 다르므로, 입장 시 직원에게 "몇 곡부터 시작하나요?"라고 물어보면 됩니다. 보통 4~6곡 분량으로 설정되어 있으며, 추가 충전은 노래 중간에도 가능합니다. 당황하지 마세요.</p>
+ </div>
+ <div class="faq-item">
+ <div class="faq-question">당산에서 1인 코인노래방 가능한 곳이 있나요?</div>
+ <p>당당 지역에도 1인 코인노래방이 점차 생기고 있습니다. 인원수 요금 배율이 없는지 확인하고, 소형 부스 형태의 룸을 운영하는 곳을 찾으면 됩니다. 미리 전화 없이 방문해도 대부분 안내받을 수 있습니다.</p>
+ </div>
+ <div class="faq-item">
+ <div class="faq-question">친구들과 갈 때, 총비용은 어떻게 나누나요?</div>
+ <p>코인 충전은 한 기기로 통합 결제되는 경우가 많습니다. 따라서 인원 수대로 나눌 순 있지만, 방 사용 계수에 따라 인당 부담이 달라지므로 결제 전에 총예상 곡수를 확인하는 습관을 들이세요.</p>
+ </div>
+ </section>
+ </main>
 
-  <footer>
-    <div>© 2025 당산 코인노래방 가이드 · dangsan-song-choice.mapo-guide.xyz</div>
-    <div style="color:#ff6b35;">구조를 알면 선택이 보입니다</div>
-  </footer>
+ <footer>
+ <div>© 2025 당산 코인노래방 가이드 · dangsan-song-choice.mapo-guide.xyz</div>
+ <div style="color:#ff6b35;">구조를 알면 선택이 보입니다</div>
+ </footer>
 
-  <!-- cache_id:3f8a2b1c0d4e --><div class="cache-marker" style="opacity:0;height:0;overflow:hidden">9b4e8a2d</div>
+ <!-- cache_id:3f8a2b1c0d4e --><div class="cache-marker" style="opacity:0;height:0;overflow:hidden">9b4e8a2d</div>
 </div>
 
 <script>
-  const btn = document.getElementById('hamburger-btn');
-  const menu = document.getElementById('nav-menu');
-  btn.addEventListener('click', () => menu.classList.toggle('active'));
+ const btn = document.getElementById('hamburger-btn');
+ const menu = document.getElementById('nav-menu');
+ btn.addEventListener('click', () => menu.classList.toggle('active'));
 </script>
 
 </body>
